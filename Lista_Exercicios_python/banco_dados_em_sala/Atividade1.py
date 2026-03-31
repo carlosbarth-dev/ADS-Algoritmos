@@ -1,0 +1,10 @@
+ID_aluno = int(input("Digite ID do aluno: "))
+Nome_aluno = input("Digite nome do aluno: ")
+dt_nasc = input("Digite data de nascimento do aluno (dd/mm/aaaa): ")
+CPF_aluno = input("Digite CPF do aluno: ")
+
+print("\nDados informados:")
+print(f"ID: {ID_aluno}")
+print(f"Nome: {Nome_aluno}")
+print(f"Data de Nascimento: {dt_nasc}")
+print(f"CPF: {CPF_aluno}")
